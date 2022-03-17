@@ -5,8 +5,8 @@
     "cms"
   ],
   "scripts": {
-    "cms:start": "yarn workspace cms start",
     "web:start": "yarn workspace web dev",
+    "cms:start": "yarn workspace cms start",
     "web:build": "yarn workspace web build",
     "web:deploy": "yarn workspace web deploy"
   },
