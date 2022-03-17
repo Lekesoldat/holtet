@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "web",
+    "cms"
+  ],
+  "scripts": {
+    "cms:start": "yarn workspace cms start",
+    "web:start": "yarn workspace web dev",
+    "web:build": "yarn workspace web build",
+    "web:deploy": "yarn workspace web deploy"
+  },
+  "packageManager": "yarn@3.2.0"
+}
