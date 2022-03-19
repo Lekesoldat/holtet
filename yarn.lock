@@ -7681,6 +7681,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"groq@npm:^2.15.0":
+  version: 2.15.0
+  resolution: "groq@npm:2.15.0"
+  checksum: b410f600387ac81ba86747108d7bfd8a9d906a664b11604f46cf8ffb8f74f7175cbd528746b1e6931763a44641b2c58be6d9bb682ec989cb9238d667edc2f975
+  languageName: node
+  linkType: hard
+
 "gunzip-maybe@npm:^1.4.1":
   version: 1.4.2
   resolution: "gunzip-maybe@npm:1.4.2"
@@ -15291,6 +15298,7 @@ __metadata:
     eslint: ^7.32.0
     eslint-config-prettier: ^8.3.0
     eslint-plugin-svelte3: ^3.2.1
+    groq: ^2.15.0
     postcss: ^8.4.12
     prettier: ^2.5.1
     prettier-plugin-svelte: ^2.5.0
