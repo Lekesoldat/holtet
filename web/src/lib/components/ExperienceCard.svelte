@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { formatDateString } from '@lib/utils';
-	import type { Experience } from '../types/Experience';
+	import type { Experience } from '@lib/types/Experience';
 
 	export let experience: Experience;
 </script>
