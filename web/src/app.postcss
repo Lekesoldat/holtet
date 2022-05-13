@@ -10,10 +10,10 @@
 
 @layer components {
 	.styled-link {
-		@apply after:block after:w-0 after:border-solid after:border-primary after:border-b-4 after:transition-all after:duration-300 hover:after:w-full;
+		@apply relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-primary after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left;
 	}
 
 	.active-link {
-		@apply after:block after:w-full after:border-solid after:border-primary after:border-b-4 after:transition-all after:duration-300 hover:after:w-full;
+		@apply relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-primary after:scale-x-100;
 	}
 }
