@@ -2,23 +2,24 @@
 	import Link from '../Link.svelte';
 	const routes = [
 		{
-			link: '/blog',
-			text: 'blog'
+			link: '/#',
+			text: 'home'
 		},
 		// {
 		// 	link: '/projects',
 		// 	text: 'projects'
 		// },
 		{
-			link: '#skills-and-tools',
+			link: '/#skills-and-tools',
 			text: 'skills & tools'
 		},
 		{
-			link: '#work',
+			link: '/#work',
 			text: 'work'
 		},
+		{ link: '/#contact', text: 'contact' },
 		{ link: '/uses', text: 'uses' },
-		{ link: '/contact', text: 'contact' }
+		{ link: '/blog', text: 'blog' }
 	];
 </script>
 
