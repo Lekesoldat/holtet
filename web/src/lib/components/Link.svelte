@@ -3,6 +3,6 @@
 	export let href: string;
 </script>
 
-<a {href} class="uppercase lg:text-lg styled-link" class:active-link={$page.url.pathname === href}
+<a sveltekit:prefetch {href} class="uppercase lg:text-lg styled-link" class:active-link={$page.url.pathname === href}
 	><slot /></a
 >
