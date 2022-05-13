@@ -5,20 +5,24 @@
 			link: '/blog',
 			text: 'blog'
 		},
+		// {
+		// 	link: '/projects',
+		// 	text: 'projects'
+		// },
 		{
-			link: '/projects',
-			text: 'projects'
+			link: '#skills-and-tools',
+			text: 'skills & tools'
 		},
 		{
-			link: '/resume',
-			text: 'resume'
+			link: '#work',
+			text: 'work'
 		},
-		{ link: '/contact', text: 'contact' },
-		{ link: '/uses', text: 'uses' }
+		{ link: '/uses', text: 'uses' },
+		{ link: '/contact', text: 'contact' }
 	];
 </script>
 
-<nav class="navbar justify-center flex-col mb-16">
+<nav class="navbar justify-center flex-col mb-16 bg-base-100 sticky top-0 z-50">
 	<h1 class="text-2xl lg:text-5xl font-bold mb-5">
 		<a href="/">Magnus <span class="text-primary">L.</span> Holtet</a>
 	</h1>

@@ -69,6 +69,20 @@ export const experiences: Experience[] = [
 				iconName: 'teaching.svg'
 			}
 		]
+	},
+	{
+		employer: 'NTNU',
+		title: 'Læringsassistent i Webteknologi',
+		description:
+			'Læringsassistent i faget IT2805 - Webteknologi. Emnet har som hensikt å gi en innføring i de grunnleggende teknologiene HTML, CSS og JavaScript. Retter ukentlige innleveringer samt et større gruppeprosjekt. Sitter i tillegg tilgjengelig på sal noen timer i uken for å hjelpe med det som trengs. Assisterer også i øvingsforelesningene der jeg går rundt og hjelper.',
+		fromDate: '2019-08',
+		toDate: '2021-05',
+		tags: [
+			{
+				name: 'Teaching',
+				iconName: 'teaching.svg'
+			}
+		]
 	}
 ];
 
