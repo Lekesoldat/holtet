@@ -4,6 +4,10 @@
 	import bitmoji from '@lib/assets/hi.png';
 </script>
 
+<svelte:head>
+	<title>Holtet</title>
+</svelte:head>
+
 <!-- Me -->
 <section class="flex flex-col lg:flex-row items-center justify-between">
 	<div>
