@@ -40,6 +40,6 @@
 		</div>
 	</div>
 	<div>
-		<p>Copyright © 2022 - All right reserved by Magnus L. Holtet</p>
+		<p>Copyright © 2022 - All rights reserved by Magnus L. Holtet</p>
 	</div>
 </footer>
