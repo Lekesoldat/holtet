@@ -14,11 +14,11 @@
 			> with cutting edge technologies!
 		</p>
 	</div>
-	<img class="hidden lg:block w-56 ml-16" src={'hi.png'} alt="Movie" />
+	<img class="hidden md:block lg:block w-56 ml-16" src={'hi.png'} alt="Movie" />
 </section>
 
 <!-- Skills and Tools -->
-<section id="skills-and-tools" class="mt-28 scroll-mt-36">
+<section id="skills-and-tools" class="mt-12 lg:mt-28 scroll-mt-36">
 	<h1 class="text-2xl lg:text-4xl mb-6">Skills & Tools</h1>
 	<p class="text-md lg:text-lg">
 		The skills, tools and technologies I use to solve most challenges:
@@ -33,7 +33,7 @@
 </section>
 
 <!-- Work -->
-<section id="work" class="mt-28 scroll-mt-36">
+<section id="work" class="mt-12 lg:mt-28 scroll-mt-36">
 	<h1 class="text-2xl lg:text-4xl mb-6">Work</h1>
 	<p class="text-md lg:text-lg">Something about what im doing</p>
 </section>

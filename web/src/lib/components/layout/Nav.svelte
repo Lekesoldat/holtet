@@ -23,7 +23,7 @@
 	];
 </script>
 
-<nav class="navbar justify-center flex-col mb-16 bg-base-100 sticky top-0 z-50">
+<nav class="navbar justify-center flex-col mb-16 bg-base-100 lg:sticky lg:top-0 lg:z-50">
 	<h1 class="text-2xl lg:text-5xl font-bold mb-5">
 		<a href="/">Magnus <span class="text-primary">L.</span> Holtet</a>
 	</h1>

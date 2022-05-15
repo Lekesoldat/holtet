@@ -14,7 +14,7 @@
 		</li>
 		<li><b>Editor Font -</b> Operator Mono</li>
 		<li>
-			<b>Terminal -</b> <a target="_blank" href="https://warp.dev" class="styled-link">Warp</a>
+			<b>Terminal -</b> <a target="_blank" href="https://warp.dev" class="active-link">Warp</a>
 		</li>
 	</ul>
 </section>
