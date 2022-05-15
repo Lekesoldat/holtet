@@ -1,6 +1,7 @@
 <script>
 	import DevIcon from '@lib/components/DevIcon.svelte';
 	import { skills } from '@lib/data/skills';
+	import bitmoji from '@lib/assets/hi.png';
 </script>
 
 <!-- Me -->
@@ -14,7 +15,7 @@
 			> with cutting edge technologies!
 		</p>
 	</div>
-	<img class="hidden lg:block w-56 ml-16" src={'hi.png'} alt="Movie" />
+	<img class="hidden lg:block w-56 ml-16" src={bitmoji} alt="Movie" />
 </section>
 
 <!-- Skills and Tools -->
@@ -36,4 +37,15 @@
 <section id="work" class="mt-12 lg:mt-28 scroll-mt-36">
 	<h1 class="text-2xl lg:text-4xl mb-6">Work</h1>
 	<p class="text-md lg:text-lg">Something about what im doing</p>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="mt-12 lg:mt-28 scroll-mt-36">
+	<h1 class="text-2xl lg:text-4xl mb-6">Contact</h1>
+	<p class="text-md lg:text-lg">
+		Will be a form here some day, - send a mail to <a
+			class="active-link"
+			href="mailto:hey@holtet.me">hey@holtet.me</a
+		> as of now.
+	</p>
 </section>
