@@ -14,7 +14,7 @@
 			> with cutting edge technologies!
 		</p>
 	</div>
-	<img class="hidden md:block lg:block w-56 ml-16" src={'hi.png'} alt="Movie" />
+	<img class="hidden lg:block w-56 ml-16" src={'hi.png'} alt="Movie" />
 </section>
 
 <!-- Skills and Tools -->
