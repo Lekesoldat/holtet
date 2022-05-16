@@ -1,11 +1,13 @@
 <script>
-	import DevIcon from '@lib/components/DevIcon.svelte';
 	import { skills } from '@lib/data/skills';
 	import bitmoji from '@lib/assets/hi.png';
+	import DevIcon from '$lib/components/dev-icon.svelte';
+	import Timeline from '$lib/components/timeline/timeline.svelte';
+	import { experiences as data } from '$lib/data/experience';
 </script>
 
 <svelte:head>
-	<title>Holtet</title>
+	<title>holtet.me</title>
 </svelte:head>
 
 <!-- Me -->
@@ -40,7 +42,8 @@
 <!-- Work -->
 <section id="work" class="mt-12 lg:mt-28 scroll-mt-36">
 	<h1 class="text-2xl lg:text-4xl mb-6">Work</h1>
-	<p class="text-md lg:text-lg">Something about what im doing</p>
+	<p class="text-md lg:text-lg">Timeline component is created, - date is yet to create.</p>
+	<!-- <Timeline {data} /> -->
 </section>
 
 <!-- Contact -->
