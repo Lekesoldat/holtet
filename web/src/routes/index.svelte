@@ -42,7 +42,7 @@
 <!-- Work -->
 <section id="work" class="mt-12 lg:mt-28 scroll-mt-36">
 	<h1 class="text-2xl lg:text-4xl mb-6">Work</h1>
-	<p class="text-md lg:text-lg">Timeline component is created, - date is yet to create.</p>
+	<p class="text-md lg:text-lg">Timeline component is created, - data is yet to create.</p>
 	<!-- <Timeline {data} /> -->
 </section>
 
