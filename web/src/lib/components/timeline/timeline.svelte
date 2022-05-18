@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { TimelineEntryData } from '@lib/types/timeline';
 	import { ascendngDateSort } from './sorting-util';
-	import TimelineEntry from './timeline-entry.svelte';
+	import TimelineEntry from './TimelineEntry.svelte';
 
 	export let data: TimelineEntryData[];
 

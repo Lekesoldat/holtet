@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Link from '../link.svelte';
+	import Link from '../Link.svelte';
 	const routes = [
 		{
 			link: '/#',

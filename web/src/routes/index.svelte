@@ -1,5 +1,5 @@
 <script>
-	import DevIcon from '@lib/components/dev-icon.svelte';
+	import DevIcon from '@lib/components/DevIcon.svelte';
 	import bitmoji from '@lib/assets/hi.png';
 	import { skills } from '@lib/data/skills';
 </script>
