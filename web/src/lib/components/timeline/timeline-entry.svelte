@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { formatDateString } from '$lib/utils';
+	import { formatDateString } from '@lib/utils';
 	import type { TimelineEntryData } from '@lib/types/timeline';
 
 	export let entry: TimelineEntryData;

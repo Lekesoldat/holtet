@@ -1,6 +1,6 @@
 <script>
-	import Footer from '$lib/components/layout/footer.svelte';
-	import Nav from '$lib/components/layout/nav.svelte';
+	import Footer from '@lib/components/layout/footer.svelte';
+	import Nav from '@lib/components/layout/nav.svelte';
 	import '../app.postcss';
 </script>
 
