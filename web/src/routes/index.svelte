@@ -1,9 +1,7 @@
 <script>
-	import { skills } from '@lib/data/skills';
-	import bitmoji from '@lib/assets/hi.png';
 	import DevIcon from '$lib/components/dev-icon.svelte';
-	import Timeline from '$lib/components/timeline/timeline.svelte';
-	import { experiences as data } from '$lib/data/experience';
+	import bitmoji from '@lib/assets/hi.png';
+	import { skills } from '@lib/data/skills';
 </script>
 
 <svelte:head>
