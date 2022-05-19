@@ -1,7 +1,31 @@
-<script>
+<script context="module" lang="ts">
+	import type { Load } from '@sveltejs/kit';
+	import { fetchWork, type Work } from '@api/work';
+
+	export const load: Load = async ({ fetch }) => {
+		const res = await fetchWork(fetch);
+		if (res.ok) {
+			return {
+				props: {
+					work: res.data
+				}
+			};
+		}
+
+		return {
+			status: res.status,
+			error: new Error('Could not perform work query.')
+		};
+	};
+</script>
+
+<script lang="ts">
 	import DevIcon from '@lib/components/DevIcon.svelte';
 	import bitmoji from '@lib/assets/hi.png';
 	import { skills } from '@lib/data/skills';
+	import Timeline from '$lib/components/timeline/Timeline.svelte';
+
+	export let work: Work[];
 </script>
 
 <svelte:head>
@@ -40,8 +64,7 @@
 <!-- Work -->
 <section id="work" class="mt-12 lg:mt-28 scroll-mt-36">
 	<h1 class="text-2xl lg:text-4xl mb-6">Work</h1>
-	<p class="text-md lg:text-lg">Timeline component is created, - data is yet to create.</p>
-	<!-- <Timeline {data} /> -->
+	<Timeline data={work} />
 </section>
 
 <!-- Contact -->

@@ -1,6 +1,6 @@
 export default {
-  title: "Experience",
-  name: "experience",
+  title: "Work",
+  name: "work",
   type: "document",
   fields: [
     { title: "Employer", name: "employer", type: "string" },
@@ -25,20 +25,6 @@ export default {
       options: {
         dateFormat: "YYYY-MM",
       },
-    },
-    {
-      title: "Tags",
-      name: "tags",
-      type: "array",
-      of: [
-        {
-          type: "reference",
-          title: "Tag",
-          to: {
-            type: "tag",
-          },
-        },
-      ],
     },
   ],
   preview: {
