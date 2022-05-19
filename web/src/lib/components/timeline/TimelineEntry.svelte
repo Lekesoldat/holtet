@@ -22,7 +22,7 @@
 	<!-- Title -->
 	<h3 class="text-lg font-semibold">
 		{entry.title}
-		{#if entry.employer}at {entry.employer}{/if}
+		{#if entry.employer}, {entry.employer}{/if}
 	</h3>
 
 	<!-- Description -->
