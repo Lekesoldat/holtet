@@ -5,9 +5,7 @@
 		"paths": {
 			"$lib": ["src/lib"],
 			"$lib/*": ["src/lib/*"],
-			"@lib/*": ["src/lib/*"],
-			"@api/*": ["src/api/*"],
-			"@components/*": ["src/components/*"]
+			"$api/*": ["src/api/*"]
 		}
 	}
 }

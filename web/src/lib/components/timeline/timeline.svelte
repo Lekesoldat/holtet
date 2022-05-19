@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { TimelineEntryData } from '@lib/types/timeline';
+	import type { TimelineEntryData } from '$lib/types/timeline';
 	import { ascendngDateSort } from './sorting-util';
 	import TimelineEntry from './TimelineEntry.svelte';
 

@@ -1,4 +1,4 @@
-import { buildFetchUrl } from '@lib/sanity';
+import { buildFetchUrl } from '$lib/sanity';
 import groq from 'groq';
 import type { SanityDataFetcher } from './types';
 

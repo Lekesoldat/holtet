@@ -1,6 +1,6 @@
 <script context="module" lang="ts">
 	import type { Load } from '@sveltejs/kit';
-	import { fetchWork, type Work } from '@api/work';
+	import { fetchWork, type Work } from '$api/work';
 
 	export const load: Load = async ({ fetch }) => {
 		const res = await fetchWork(fetch);
@@ -20,9 +20,9 @@
 </script>
 
 <script lang="ts">
-	import DevIcon from '@lib/components/DevIcon.svelte';
-	import bitmoji from '@lib/assets/hi.png';
-	import { skills } from '@lib/data/skills';
+	import DevIcon from '$lib/components/DevIcon.svelte';
+	import bitmoji from '$lib/assets/hi.png';
+	import { skills } from '$lib/data/skills';
 	import Timeline from '$lib/components/timeline/Timeline.svelte';
 
 	export let work: Work[];

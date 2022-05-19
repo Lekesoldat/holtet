@@ -1,4 +1,4 @@
-import type { TimelineEntryData } from '@lib/types/timeline';
+import type { TimelineEntryData } from '$lib/types/timeline';
 import { compareAsc } from 'date-fns';
 
 export const ascendngDateSort = (a: TimelineEntryData, b: TimelineEntryData) => {
