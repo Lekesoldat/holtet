@@ -1,6 +1,6 @@
-<footer class="footer footer-center p-10 text-base-content rounded">
+<footer class="footer footer-center pt-12 text-base-content rounded">
 	<div>
-		<div class="grid grid-flow-col gap-4">
+		<!-- <div class="grid grid-flow-col gap-4">
 			<a href="https://twitter.com/lekesoldat"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -13,6 +13,7 @@
 					/></svg
 				></a
 			>
-		</div>
+		</div> -->
+		Built with SvelteKit, Tailwind CSS and Sanity.io
 	</div>
 </footer>
