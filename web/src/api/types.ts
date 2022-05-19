@@ -1,4 +1,4 @@
-import type { Fetch, Params } from '$lib/sanity';
+import type { Fetch, Params } from '@lib/sanity';
 
 interface QueryResult<T> {
 	data: T;
