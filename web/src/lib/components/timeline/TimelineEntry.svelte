@@ -21,8 +21,7 @@
 
 	<!-- Title -->
 	<h3 class="text-lg font-semibold">
-		{entry.title}
-		{#if entry.employer}, {entry.employer}{/if}
+		{entry.title}{entry.employer ? `, ${entry.employer}` : ''}
 	</h3>
 
 	<!-- Description -->
