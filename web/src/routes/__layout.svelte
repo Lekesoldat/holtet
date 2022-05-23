@@ -15,7 +15,7 @@
 	/>
 </svelte:head>
 
-<main class="container mx-auto max-w-screen-lg py-12 px-16">
+<main class="container mx-auto max-w-screen-lg py-8 px-10 lg:py-12 lg:px-16">
 	<Nav />
 	<slot />
 	<Footer />

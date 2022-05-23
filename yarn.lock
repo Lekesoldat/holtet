@@ -1655,6 +1655,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@portabletext/svelte@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@portabletext/svelte@npm:1.0.1"
+  dependencies:
+    "@portabletext/toolkit": ^1.0.5
+  peerDependencies:
+    svelte: ^3.47.0
+  checksum: d1225ef4bb2446886b9cbc8fe5b040181e04ecb3615bc6c7d06f96f8dc41d2d1acc614d7a4004a763fe542b045984553eb6a2e8528fb3a5418f4a9234b8d3822
+  languageName: node
+  linkType: hard
+
 "@portabletext/toolkit@npm:^1.0.5":
   version: 1.0.5
   resolution: "@portabletext/toolkit@npm:1.0.5"
@@ -1848,6 +1859,26 @@ __metadata:
     object-assign: ^4.1.1
     rxjs: ^6.0.0
   checksum: d3a25bf6c85635b5a107f63eff9db8a12ec906e69131c1f778b449821b1fb1497081ab97a73c691254c69bacfe506ccb5905f6556ed57020e0f8805d0fa53667
+  languageName: node
+  linkType: hard
+
+"@sanity/code-input@npm:^2.30.0":
+  version: 2.30.0
+  resolution: "@sanity/code-input@npm:2.30.0"
+  dependencies:
+    "@reach/auto-id": ^0.13.2
+    "@sanity/base": 2.30.0
+    "@sanity/icons": ^1.2.6
+    "@sanity/types": 2.29.5
+    "@sanity/ui": ^0.37.9
+    "@sanity/util": 2.29.5
+    ace-builds: ^1.4.13
+    react-ace: ^9.5.0
+  peerDependencies:
+    prop-types: ^15.6 || ^16
+    react: ^16.9 || ^17
+    styled-components: ^5.2.0
+  checksum: b3d7cfafa88b818e22a022f0e7ae13884c0c2c65ca0f8bef601b4ed1fe1f388d57174e0e2cf87cdac60cdc739fbbfdedb23fc28f08ff1a9dc07365ba8ceed0e7
   languageName: node
   linkType: hard
 
@@ -2963,6 +2994,13 @@ __metadata:
     mime-types: ~2.1.34
     negotiator: 0.6.3
   checksum: 50c43d32e7b50285ebe84b613ee4a3aa426715a7d131b65b786e2ead0fd76b6b60091b9916d3478a75f11f162628a2139991b6c03ab3f1d9ab7c86075dc8eab4
+  languageName: node
+  linkType: hard
+
+"ace-builds@npm:^1.4.13":
+  version: 1.5.0
+  resolution: "ace-builds@npm:1.5.0"
+  checksum: 04025326119da2c0d3c468e4b429ebb8d28e29febc4fc6aa97fbf74c8472d3cecdf8661c72c8af6ec62fd93e0c6ab0765ca1b17cb1ba3996c95b5e8787b6b27b
   languageName: node
   linkType: hard
 
@@ -4531,6 +4569,7 @@ __metadata:
   resolution: "cms@workspace:cms"
   dependencies:
     "@sanity/base": ^2.29.1
+    "@sanity/code-input": ^2.30.0
     "@sanity/core": ^2.28.1
     "@sanity/default-layout": ^2.29.1
     "@sanity/default-login": ^2.29.1
@@ -8168,6 +8207,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"i@npm:^0.3.7":
+  version: 0.3.7
+  resolution: "i@npm:0.3.7"
+  checksum: 97db09a9377223511bbc416f22e24ee7b90417b0a384710756b2ab74e6cbd95a93ff5856c4bdd8d12d9a74e2460fcbf895f0c2525b6ab2f7898795cb5a5743cf
+  languageName: node
+  linkType: hard
+
 "iconv-lite@npm:0.4.24":
   version: 0.4.24
   resolution: "iconv-lite@npm:0.4.24"
@@ -9455,6 +9501,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.get@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "lodash.get@npm:4.4.2"
+  checksum: e403047ddb03181c9d0e92df9556570e2b67e0f0a930fcbbbd779370972368f5568e914f913e93f3b08f6d492abc71e14d4e9b7a18916c31fa04bd2306efe545
+  languageName: node
+  linkType: hard
+
 "lodash.isarguments@npm:^3.0.0":
   version: 3.1.0
   resolution: "lodash.isarguments@npm:3.1.0"
@@ -9466,6 +9519,13 @@ __metadata:
   version: 3.0.4
   resolution: "lodash.isarray@npm:3.0.4"
   checksum: 3b298fb76ff16981353f7d0695d8680be9451b74d2e76714ddbd903a90fbaa8e1d84979d0ae99325f5a9033776771154b19e05027ab23de83202251c8abe81b5
+  languageName: node
+  linkType: hard
+
+"lodash.isequal@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.isequal@npm:4.5.0"
+  checksum: da27515dc5230eb1140ba65ff8de3613649620e8656b19a6270afe4866b7bd461d9ba2ac8a48dcc57f7adac4ee80e1de9f965d89d4d81a0ad52bb3eec2609644
   languageName: node
   linkType: hard
 
@@ -12380,6 +12440,22 @@ __metadata:
     iconv-lite: 0.4.24
     unpipe: 1.0.0
   checksum: 5362adff1575d691bb3f75998803a0ffed8c64eabeaa06e54b4ada25a0cd1b2ae7f4f5ec46565d1bec337e08b5ac90c76eaa0758de6f72a633f025d754dec29e
+  languageName: node
+  linkType: hard
+
+"react-ace@npm:^9.5.0":
+  version: 9.5.0
+  resolution: "react-ace@npm:9.5.0"
+  dependencies:
+    ace-builds: ^1.4.13
+    diff-match-patch: ^1.0.5
+    lodash.get: ^4.4.2
+    lodash.isequal: ^4.5.0
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^0.13.0 || ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0
+    react-dom: ^0.13.0 || ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0
+  checksum: 4fcb8cf5c69507074c5fca1d40965abef8e411ac6ab66bdfbfc8505eb13e3bc2bb1c31edb80762bae9578802a53c50fda9037619b8ade1084a89244641ebb1c8
   languageName: node
   linkType: hard
 
@@ -15457,6 +15533,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:web"
   dependencies:
+    "@portabletext/svelte": ^1.0.1
     "@sveltejs/adapter-auto": next
     "@sveltejs/kit": next
     "@typescript-eslint/eslint-plugin": ^5.10.1
@@ -15468,6 +15545,7 @@ __metadata:
     eslint-config-prettier: ^8.3.0
     eslint-plugin-svelte3: ^3.2.1
     groq: ^2.15.0
+    i: ^0.3.7
     postcss: ^8.4.12
     prettier: ^2.5.1
     prettier-plugin-svelte: ^2.5.0

@@ -38,7 +38,7 @@
 		<h1 class="text-2xl lg:text-4xl mb-6">👋, I'm Magnus!</h1>
 		<p class="text-md lg:text-lg">
 			I'm a software engineering student and an aspiring full stack developer who loves learning,
-			snowboarding, and other adrenaline-rushing activities. I like working with people, and enjoy <span
+			snowboarding, and other adrenaline-fueled activities. I like working with people, and enjoy <span
 				class="font-bold">exciting projects</span
 			> with cutting edge technologies!
 		</p>
@@ -46,9 +46,9 @@
 	<img class="hidden lg:block w-56 ml-16" src={bitmoji} alt="Movie" />
 </section>
 
-<!-- Skills and Tools -->
+<!-- Toolbox -->
 <section id="skills-and-tools" class="mt-12 lg:mt-28 scroll-mt-36">
-	<h1 class="text-2xl lg:text-4xl mb-6">Skills & Tools</h1>
+	<h1 class="text-2xl lg:text-4xl mb-6">Toolbox</h1>
 	<p class="text-md lg:text-lg">
 		The skills, tools and technologies I use to solve most challenges:
 	</p>

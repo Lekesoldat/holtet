@@ -5,13 +5,10 @@
 			link: '/#',
 			text: 'home'
 		},
-		// {
-		// 	link: '/projects',
-		// 	text: 'projects'
-		// },
+
 		{
-			link: '/#skills-and-tools',
-			text: 'skills & tools'
+			link: '/#toolbox',
+			text: 'toolbox'
 		},
 		{
 			link: '/#work',
