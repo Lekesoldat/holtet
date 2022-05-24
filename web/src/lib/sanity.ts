@@ -1,3 +1,4 @@
+import imageUrlBuilder from '@sanity/image-url';
 const configuration = {
 	projectId: 'cn926uvg',
 	dataset: 'production',
@@ -24,3 +25,5 @@ export const buildFetchUrl = (query: string, params?: Params) => {
 
 	return url;
 };
+
+export const builder = imageUrlBuilder(configuration);
