@@ -6,12 +6,14 @@ export interface PostPreview {
 	_createdAt: string;
 	title: string;
 	slug: string;
+	abstract: string;
 	estimatedReadingTime: number;
 }
 const ALL_POSTS_QUERY = groq`
   *[_type == "posts" && !(_id in path("drafts.**"))] {
     _createdAt,
     title,
+		abstract,
     "slug": slug.current,
     "estimatedReadingTime": round(length(pt::text(content)) / 5 / 180 )
   }

@@ -18,6 +18,11 @@ export default {
       },
     },
     {
+      title: "Abstract",
+      name: "abstract",
+      type: "text",
+    },
+    {
       title: "Tags",
       name: "tags",
       type: "array",
