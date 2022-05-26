@@ -8,6 +8,6 @@
 	$: ({ value } = portableText);
 </script>
 
-<a href={value.href} target="_blank">
+<a href={value.href} target="_blank" class="active-link">
 	<slot />
 </a>

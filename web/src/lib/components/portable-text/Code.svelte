@@ -9,6 +9,7 @@
 	$: ({ value } = portableText);
 </script>
 
+<!-- TODO: Fix syntax highlighting -->
 <pre>
   <p>{value.language}</p>
   <code>{value.code}</code>
