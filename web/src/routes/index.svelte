@@ -47,7 +47,7 @@
 </section>
 
 <!-- Toolbox -->
-<section id="skills-and-tools" class="mt-12 lg:mt-28 scroll-mt-36">
+<section id="toolbox" class="mt-12 lg:mt-28 scroll-mt-36">
 	<h1 class="text-2xl lg:text-4xl mb-6">Toolbox</h1>
 	<p class="text-md lg:text-lg">
 		The skills, tools and technologies I use to solve most challenges:
