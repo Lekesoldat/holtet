@@ -16,6 +16,7 @@
     "@portabletext/svelte": "^1.0.1",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
+    "@types/prismjs": "^1.26.0",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
     "autoprefixer": "^10.4.4",
@@ -38,6 +39,8 @@
     "@sanity/image-url": "^1.0.1",
     "daisyui": "^2.14.3",
     "date-fns": "^2.28.0",
-    "groq": "^2.15.0"
+    "groq": "^2.15.0",
+    "prism-svelte": "^0.5.0",
+    "prismjs": "^1.28.0"
   }
 }

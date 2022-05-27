@@ -2787,6 +2787,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/prismjs@npm:^1.26.0":
+  version: 1.26.0
+  resolution: "@types/prismjs@npm:1.26.0"
+  checksum: cd5e7a6214c1f4213ec512a5fcf6d8fe37a56b813fc57ac95b5ff5ee074742bfdbd2f2730d9fd985205bf4586728e09baa97023f739e5aa1c9735a7c1ecbd11a
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.5
   resolution: "@types/prop-types@npm:15.7.5"
@@ -12114,6 +12121,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prism-svelte@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "prism-svelte@npm:0.5.0"
+  checksum: f2c3c6eafcb04a77a08b0a280d327952d3da2eed326956db41729fcd487ebdf939c86f54955f59ea65002e1c8d4eb60018530276493c4ee33768483f8ca79f21
+  languageName: node
+  linkType: hard
+
+"prismjs@npm:^1.28.0":
+  version: 1.28.0
+  resolution: "prismjs@npm:1.28.0"
+  checksum: bde93fb2beb45b7243219fc53855f59ee54b3fa179f315e8f9d66244d756ef984462e10561bbdc6713d3d7e051852472d7c284f5794a8791eeaefea2fb910b16
+  languageName: node
+  linkType: hard
+
 "prismjs@npm:~1.27.0":
   version: 1.27.0
   resolution: "prismjs@npm:1.27.0"
@@ -15537,6 +15558,7 @@ __metadata:
     "@sanity/image-url": ^1.0.1
     "@sveltejs/adapter-auto": next
     "@sveltejs/kit": next
+    "@types/prismjs": ^1.26.0
     "@typescript-eslint/eslint-plugin": ^5.10.1
     "@typescript-eslint/parser": ^5.10.1
     autoprefixer: ^10.4.4
@@ -15550,6 +15572,8 @@ __metadata:
     postcss: ^8.4.12
     prettier: ^2.5.1
     prettier-plugin-svelte: ^2.5.0
+    prism-svelte: ^0.5.0
+    prismjs: ^1.28.0
     svelte: ^3.44.0
     svelte-check: ^2.2.6
     svelte-preprocess: ^4.10.1
