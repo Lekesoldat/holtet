@@ -5,6 +5,9 @@
 </script>
 
 <svelte:head>
+	<!-- Favicon -->
+	<link rel="icon" href="./favicon.png" />
+
 	<!-- Poppins font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700,800" rel="stylesheet" />
 
