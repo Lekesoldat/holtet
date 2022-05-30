@@ -33,7 +33,7 @@
 	<title>holtet.me</title>
 </svelte:head>
 
-<ThemeSwitcher />
+<!-- <ThemeSwitcher /> -->
 
 <!-- Me -->
 <section class="flex flex-col lg:flex-row items-center justify-between">
