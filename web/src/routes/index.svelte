@@ -24,7 +24,6 @@
 	import bitmoji from '@lib/assets/hi.png';
 	import { skills } from '@lib/data/skills';
 	import Timeline from '@lib/components/timeline/Timeline.svelte';
-	import ThemeSwitcher from '$lib/components/ThemeSwitcher.svelte';
 
 	export let work: Work[];
 </script>
@@ -32,8 +31,6 @@
 <svelte:head>
 	<title>holtet.me</title>
 </svelte:head>
-
-<!-- <ThemeSwitcher /> -->
 
 <!-- Me -->
 <section class="flex flex-col lg:flex-row items-center justify-between">

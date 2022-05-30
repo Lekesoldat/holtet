@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Link from '../Link.svelte';
+	import ThemeSwitcher from '../ThemeSwitcher.svelte';
 	const routes = [
 		{
 			link: '/#',
@@ -29,5 +30,6 @@
 		{#each routes as route}
 			<li><Link href={route.link}>{route.text}</Link></li>
 		{/each}
+		<li><ThemeSwitcher /></li>
 	</ul>
 </nav>
