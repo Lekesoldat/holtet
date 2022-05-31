@@ -1,6 +1,6 @@
 <script context="module" lang="ts">
-	import type { Load } from '@sveltejs/kit';
 	import { fetchPosts, type PostPreview } from '@api/all-posts';
+	import type { Load } from '@sveltejs/kit';
 	import { format } from 'date-fns';
 
 	export const load: Load = async ({ fetch }) => {
