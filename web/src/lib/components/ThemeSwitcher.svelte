@@ -39,7 +39,7 @@
 	});
 </script>
 
-<div title="Change Theme" class="dropdown dropdown-end ">
+<div title="Change Theme" class="dropdown dropdown-end">
 	<div tabindex="0" class="btn gap-1 normal-case btn-ghost">
 		<svg
 			width="20"
