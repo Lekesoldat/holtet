@@ -73,7 +73,7 @@
 	<p class="text-md lg:text-lg">
 		Will be a form here some day, - send a mail to <a
 			class="active-link"
-			href="mailto:hey@holtet.me">hey@holtet.me</a
+			href="mailto:magnus.holtetx+dev@gmail.com">magnus.holtetx+dev@gmail.com</a
 		> as of now.
 	</p>
 </section>
