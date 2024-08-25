@@ -7259,12 +7259,12 @@ __metadata:
   linkType: hard
 
 "follow-redirects@npm:^1.2.4":
-  version: 1.15.0
-  resolution: "follow-redirects@npm:1.15.0"
+  version: 1.15.6
+  resolution: "follow-redirects@npm:1.15.6"
   peerDependenciesMeta:
     debug:
       optional: true
-  checksum: eaec81c3e0ae57aae2422e38ad3539d0e7279b3a63f9681eeea319bb683dea67502c4e097136b8ce9721542b4e236e092b6b49e34e326cdd7733c274f0a3f378
+  checksum: a62c378dfc8c00f60b9c80cab158ba54e99ba0239a5dd7c81245e5a5b39d10f0c35e249c3379eae719ff0285fff88c365dd446fab19dee771f1d76252df1bbf5
   languageName: node
   linkType: hard
 
@@ -14483,10 +14483,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^3.44.0":
-  version: 3.48.0
-  resolution: "svelte@npm:3.48.0"
-  checksum: d72587582b6967bf083ff7dc254f8067c22b57d4678182b48ca51010e0f3a1d98a33a00365046aee0c70ed3ffc716b73141207ec5ac6c44f1f5e34c5477e61ea
+"svelte@npm:^3.49.0":
+  version: 3.59.2
+  resolution: "svelte@npm:3.59.2"
+  checksum: 3e9d770292ab5a0061ff2d3a6f77b323014399de7458371ab507465f9860d04d0c8c7a50239d15c78b920cd42065953e3c4a36abb69a2285c52c825017621444
   languageName: node
   linkType: hard
 
@@ -15581,7 +15581,7 @@ __metadata:
     prettier-plugin-svelte: ^2.5.0
     prism-svelte: ^0.5.0
     prismjs: ^1.28.0
-    svelte: ^3.44.0
+    svelte: ^3.49.0
     svelte-check: ^2.2.6
     svelte-preprocess: ^4.10.1
     tailwindcss: ^3.0.23
